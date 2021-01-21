@@ -28,6 +28,6 @@ class AppServiceProvider extends ServiceProvider
     {
         //
         // Schema::defaultStringLength(191);
-        View::share('channels', Channel::all());
+        // View::share('channels', Channel::all());
     }
 }
